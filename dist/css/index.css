@@ -442,6 +442,9 @@ div.monthYearPicker a.selected {
 	.fixed-top {
 		display: none;
 	}
+	.intro-title {
+		margin-top: 230px;
+	}
 }
 /* RESPONSIVATION */
 @media only screen and (min-width: 480px) {
