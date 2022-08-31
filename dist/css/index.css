@@ -434,7 +434,15 @@ div.monthYearPicker a.selected {
 .foot-content-item {
 	width: 25%;
 }
-
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{
+	.fixed-top {
+		display: none;
+	}
+}
 /* RESPONSIVATION */
 @media only screen and (min-width: 480px) {
 	.fixed-top {
