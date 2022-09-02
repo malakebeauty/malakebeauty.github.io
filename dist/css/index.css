@@ -16,7 +16,7 @@ body {
 /* NAVBAR */
 .menu {
 	opacity: 0.9;
-	display: flex;
+	display: flex !important;
 	direction: rtl;
 	position: fixed;
 	top: 0;left: 0;right: 0;
@@ -70,8 +70,7 @@ body {
 .intro-text {
 	color: var(--gray-text);
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+        margin: 10px auto 0 auto;
 	word-wrap: nowrap;
 	max-width: 250px;
 	font-size: 11px;
