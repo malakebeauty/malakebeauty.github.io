@@ -439,18 +439,12 @@ div.monthYearPicker a.selected {
     only screen and (max-device-width: 667px), 
     only screen and (max-width: 480px)
 {
-	.fixed-top {
-		display: none;
-	}
 	.intro-title {
 		margin-top: 230px;
 	}
 }
 /* RESPONSIVATION */
 @media only screen and (min-width: 480px) {
-	.fixed-top {
-		display: none
-	}
 	.intro {
 		width: 30%;
 	}
