@@ -16,7 +16,7 @@ body {
 /* NAVBAR */
 .menu {
 	opacity: 0.9;
-	display: flex !important;
+	display: flex;
 	direction: rtl;
 	position: fixed;
 	top: 0;left: 0;right: 0;
@@ -70,7 +70,8 @@ body {
 .intro-text {
 	color: var(--gray-text);
 	text-align: center;
-        margin: 10px auto 0 auto;
+	margin-right: auto;
+	margin-left: auto;
 	word-wrap: nowrap;
 	max-width: 250px;
 	font-size: 11px;
@@ -376,6 +377,13 @@ div.monthYearPicker a.selected {
 .order {
 	padding: 10px;
 }
+.order-text {
+	color: var(--gray-text);
+	direction: rtl;
+}
+.order-content {
+	direction: rtl;
+}
 .date,.time, #submitOrder, #reserveFirst {
 	width: 85%;
 	padding: 8px;
@@ -433,17 +441,28 @@ div.monthYearPicker a.selected {
 .foot-content-item {
 	width: 25%;
 }
-@media only screen 
-    and (max-device-width: 640px), 
-    only screen and (max-device-width: 667px), 
-    only screen and (max-width: 480px)
-{
+.foot-contact {
+	color: white;
+	margin-top: 15px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+
+@media only screen and (max-device-width: 640px) {
+	.fixed-top {
+		display: none;
+	}
 	.intro-title {
 		margin-top: 230px;
 	}
 }
 /* RESPONSIVATION */
 @media only screen and (min-width: 480px) {
+	.fixed-top {
+		display: none
+	}
 	.intro {
 		width: 30%;
 	}
