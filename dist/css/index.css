@@ -380,8 +380,12 @@ div.monthYearPicker a.selected {
 .order-text {
 	color: var(--gray-text);
 	direction: rtl;
+	text-align: right;
+	margin-left: auto;
 }
 .order-content {
+	margin-left: auto;
+	text-align: right;
 	direction: rtl;
 }
 .date,.time, #submitOrder, #reserveFirst {
