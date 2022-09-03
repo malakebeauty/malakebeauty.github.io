@@ -455,18 +455,12 @@ a {
 }
 
 @media only screen and (max-device-width: 640px) {
-	.fixed-top {
-		display: none;
-	}
 	.intro-title {
 		margin-top: 230px;
 	}
 }
 /* RESPONSIVATION */
 @media only screen and (min-width: 480px) {
-	.fixed-top {
-		display: none
-	}
 	.intro {
 		width: 30%;
 	}
